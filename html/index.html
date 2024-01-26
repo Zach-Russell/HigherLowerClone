@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Basic HTML5 document</title>
+        <meta charset='utf-8'>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 id="heading">Welcome to Higher Lower Game</h1>
+
+        <div id="messages"></div>
+
+        <h2>How to Play</h2>
+        <p> On the left side of the screen a topic is shown with the number of google searches it received monthly. The right side has another topic, which you must guess if it had a higher or lower amount of searches when compared. Continue guessing until you fail! </p>
+
+        <div id="startBtn">
+            <button onclick="loadCards()"> Get Started </button>
+        </div>
+   
+
+        <div id="cardHolder" class="displayArea"> </div>
+
+    </body>
+</html>
+
+<script src="control.js"></script>
